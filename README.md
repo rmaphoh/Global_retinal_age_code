@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 1. Download the RETFound-DINOv2 [weight](https://drive.google.com/file/d/1Wd5OuU3jXQbGmojPlGIWqT-p0DhiEQJE/view?usp=sharing) and put it in the project folder `Global_retinal_age_code`.
 
-2. Please substitute the `{Absolute_path}` with the path of `Retina_age` folder created above. If the images have already been pre-processed, comment the `python EyeQ_process_main.py`. 
+2. Please substitute the `{Absolute_path}` with the absolute path of `Retina_age` folder created above. If the images have already been pre-processed, comment the line `python EyeQ_process_main.py` before running 
 
 ```
 sh train.sh
